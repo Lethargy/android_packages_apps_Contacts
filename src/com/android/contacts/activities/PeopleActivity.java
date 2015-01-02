@@ -802,9 +802,6 @@ public class PeopleActivity extends ContactsActivity implements
 
         mAllFragment.setVerticalScrollbarPosition(getScrollBarPosition());
         mAllFragment.setSelectionVisible(false);
-        final boolean cmccFeature = getResources().
-                getBoolean(R.bool.config_show_quick_call_button);
-        mAllFragment.setQuickCallButtonEnabled(cmccFeature);
     }
 
     private int getScrollBarPosition() {
